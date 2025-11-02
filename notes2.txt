@@ -1,0 +1,12 @@
+Commands i ran
+
+docker run -d -p 8080:80 nginx
+docker ps
+docker logs <container_id>
+docker stop <container_id>
+
+-d -> runs the container in the background 
+-p -> maps to the port
+
+learned how container expose ports and run just like real servers.
+
